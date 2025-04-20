@@ -1,3 +1,12 @@
+export default function Home() {
+  return (
+    <div>
+      <h1>Bem-vindo ao Rota Sorocabana!</h1>
+      <p>Esse é um site para bares, restaurantes e músicos.</p>
+    </div>
+  );
+}
+
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
